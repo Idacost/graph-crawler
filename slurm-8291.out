@@ -1,0 +1,21 @@
+Benchmarking BFS Implementation
+Running BFS for 'Tom Hanks' with depth 1...
+/var/spool/slurm/slurmd/job08291/slurm_script: line 12: ./graph-crawler: Permission denied
+Execution time for depth 1: 2 ms
+----------------------------------
+Running BFS for 'Tom Hanks' with depth 2...
+/var/spool/slurm/slurmd/job08291/slurm_script: line 12: ./graph-crawler: Permission denied
+Execution time for depth 2: 2 ms
+----------------------------------
+Running BFS for 'Tom Hanks' with depth 3...
+/var/spool/slurm/slurmd/job08291/slurm_script: line 12: ./graph-crawler: Permission denied
+Execution time for depth 3: 2 ms
+----------------------------------
+Running BFS for 'Tom Hanks' with depth 4...
+/var/spool/slurm/slurmd/job08291/slurm_script: line 12: ./graph-crawler: Permission denied
+Execution time for depth 4: 2 ms
+----------------------------------
+Running BFS for 'Tom Hanks' with depth 5...
+/var/spool/slurm/slurmd/job08291/slurm_script: line 12: ./graph-crawler: Permission denied
+Execution time for depth 5: 2 ms
+----------------------------------
