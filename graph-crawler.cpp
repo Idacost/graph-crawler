@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 #include <chrono>
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 size_t my_write_data(char *ptr, size_t size, size_t nmemb, void *userdata) {
@@ -92,15 +92,14 @@ void bfs(const std::string& start_node, int depth) {
     }
 }
 
-int main () {
-    std::string node;
-    int depth;
+int main(int argc, char** argv) {
+    if (argc < 3) {
+        std::cerr << "Usage: ./graph-crawler <start_node> <depth>" << std::endl;
+        return 1;
+    }
 
-    std::cout << "Enter the starting node: ";
-    std::getline(std::cin, node);  // Use getline to allow spaces in the name
-
-    std::cout << "Enter the depth: ";
-    std::cin >> depth;
+    std::string node = argv[1];
+    int depth = std::stoi(argv[2]);
 
     // Start time measurement
     auto start_time = std::chrono::high_resolution_clock::now();
